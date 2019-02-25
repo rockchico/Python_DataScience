@@ -1,0 +1,2 @@
+teste = []
+print(len(teste))
