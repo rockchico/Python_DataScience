@@ -9,5 +9,4 @@ list.remove('curly')         ## search and remove that element
 list.pop(1)                  ## removes and returns 'larry'
 print (list)  ## ['xxx', 'moe', 'shemp', 'yyy', 'zzz']
 
-
 print('moe' in list)
