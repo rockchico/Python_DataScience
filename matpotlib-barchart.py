@@ -14,7 +14,17 @@ plt.bar(xs, num_oscars)
 plt.ylabel("# of Academy Awards")
 plt.title("My Favorite Movies")
 # label x-axis with movie names at bar centers
+
+teste = [i + 0.5 for i in range(5)]
+print(teste)
+
+
 plt.xticks([i + 0.5 for i, _ in enumerate(movies)], movies)
+
+
+
+
+
 plt.show()
 
 
